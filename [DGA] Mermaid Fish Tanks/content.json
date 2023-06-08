@@ -1,0 +1,54 @@
+    [
+      {
+        "$ItemType": "Furniture",
+        "ID": "Mermaid Tank",
+        "Type": "FishTank",
+        "TankSwimmingCapacity": 10,
+        "TankGroundCapacity": 10,
+        "TankDecorationCapacity": 10,
+        "Configurations": [
+            {
+                "FrontTexture": "Assets/mermaid_tank.png:2@20, Assets/mermaid_tank.png:3@20, Assets/mermaid_tank.png:4@20, Assets/mermaid_tank.png:3@20",
+                "Texture": "Assets/mermaid_tank.png:0",
+                "DisplaySize": { "X": 7, "Y": 4 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "FishShop",
+      "Cost": 6000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "StarAmy.MermaidTanks/Mermaid Tank"
+      }
+   },
+   {
+        "$ItemType": "Furniture",
+        "ID": "Mermaid Pond",
+        "Type": "FishTank",
+        "TankSwimmingCapacity": 10,
+        "TankGroundCapacity": 10,
+        "TankDecorationCapacity": 10,
+        "Configurations": [
+            {
+                "FrontTexture": "Assets/mermaid_pond.png:1",
+                "Texture": "Assets/mermaid_pond.png:2@40, Assets/mermaid_pond.png:3@40, Assets/mermaid_pond.png:4@40, Assets/mermaid_pond.png:5@40, Assets/mermaid_pond.png:6@40, Assets/mermaid_pond.png:7@40, Assets/mermaid_pond.png:8@40, Assets/mermaid_pond.png:9@40, Assets/mermaid_pond.png:10@40",
+                "DisplaySize": { "X": 5, "Y": 4 },
+                "CollisionHeight": 4,
+            }
+        ]
+    },
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "FishShop",
+      "Cost": 6000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "StarAmy.MermaidTanks/Mermaid Pond"
+      }
+   }
+]
